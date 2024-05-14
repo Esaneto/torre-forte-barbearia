@@ -50,8 +50,8 @@ nav{
     text-align: center;
     text-decoration: none;
     text-underline-position: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     box-shadow: 0px 0px 10px black;
 }
 nav > a.agenda{
@@ -60,7 +60,8 @@ nav > a.agenda{
 
 }
 nav > a{
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-justify: auto;
     display: inline-block;
     text-decoration: none;
