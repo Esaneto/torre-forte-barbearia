@@ -44,18 +44,21 @@ nav{
     padding-left: 20px;
     text-align: center;
     text-decoration: none;
+    text-underline-position: auto;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 0px 0px 10px black;
 }
 nav > a.agenda{
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 nav > a{
+    text-justify: auto;
+    display: inline-block;
     text-decoration: none;
-    font-size: larger;
+    font-size: large;
     color: var(--cor0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition-duration: .5s;
@@ -93,37 +96,6 @@ article > p{
 }
 address{
     color: white;
-}
-main>
-
-ul{
-    list-style-position: inside;
-    columns: 1;
-  
-}
-li{
-    display: contents;
-    color: white;
-    margin: auto;
-    
-    
-   
-    
-}
-li.barba img{
-    width: 350px;
-}
-li.lowfade img{
-    width: 450px;
-}
-li.platinado img{
-    width: 400px;
-}
-li.mullet img{
-    width: 400px;
-}
-video{
-   
 }
 footer{
     
