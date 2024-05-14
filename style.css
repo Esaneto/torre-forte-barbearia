@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@font-face {
+    font-family: america;
+    src: url(fontes/american_captain/American\ Captain.otf);
+    font-weight: normal;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor0);
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor0: black;
+    --cor1: white;
+    --cor2: #060B51;
+    --cor3: #4D59FA;
+    --cor4: #636ACF;
+    --cor5: #6A6EA5;
+}
+header{
+    margin: auto;
+    background-image: linear-gradient(to bottom, gray,var(--cor0));
+    padding: 20px;
+    text-align: center;
+   color: var(--cor1);
+   
+}
+header > h1{
+    color: var(--cor1);
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px var(--cor0);
+}
+header > p{
+    color: white;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px var(--cor0);
+}
+nav{
+    background-color: gray;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+nav > a.agenda{
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+nav > a{
+    text-decoration: none;
+    font-size: larger;
+    color: var(--cor0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-duration: .5s;
+    
+}
+nav > a:hover{
+    background-color: var(--cor0);
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+body{
+    background-image: linear-gradient(to bottom, var(--cor1),var(--cor0));
+    
+}
+main{
+    background-color: var(--cor0);
+    min-width: 550px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+h2{
+    color: white;
+}
+article > p{
+    color: white;
+    padding: 30px;
+}
+address{
+    color: white;
+}
+main>
+
+ul{
+    list-style-position: inside;
+    columns: 1;
+  
+}
+li{
+    display: contents;
+    color: white;
+    margin: auto;
+    
+    
+   
+    
+}
+li.barba img{
+    width: 350px;
+}
+li.lowfade img{
+    width: 450px;
+}
+li.platinado img{
+    width: 400px;
+}
+li.mullet img{
+    width: 400px;
+}
+video{
+   
+}
+footer{
+    
+    min-width: 550px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+footer p{
+    color: white;
+}
