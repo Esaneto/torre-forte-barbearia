@@ -19,8 +19,10 @@
     --cor5: #6A6EA5;
 }
 header{
+    min-width: 350px;
+    
     margin: auto;
-    background-image: linear-gradient(to bottom, gray,var(--cor0));
+    background-image: linear-gradient(to bottom, var(--cor3) ,var(--cor5));
     padding: 20px;
     text-align: center;
    color: var(--cor1);
@@ -38,6 +40,9 @@ header > p{
     text-shadow: 1px 1px 1px var(--cor0);
 }
 nav{
+    max-width: 1000px;
+    min-width: 350px;
+    display: grid;
     background-color: gray;
     margin: auto;
     padding-right: 20px;
@@ -45,8 +50,13 @@ nav{
     text-align: center;
     text-decoration: none;
     text-underline-position: auto;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
     padding-top: 10px;
     padding-bottom: 10px;
+
     box-shadow: 0px 0px 10px black;
 }
 nav > a.agenda{
@@ -55,13 +65,16 @@ nav > a.agenda{
 
 }
 nav > a{
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+
     text-justify: auto;
     display: inline-block;
     text-decoration: none;
     font-size: large;
     color: var(--cor0);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    transition-duration: .5s;
     
 }
 nav > a:hover{
@@ -69,9 +82,10 @@ nav > a:hover{
     color: white;
     padding-bottom: 10px;
     padding-top: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
 }
+
 body{
     background-image: linear-gradient(to bottom, var(--cor1),var(--cor0));
     
@@ -99,7 +113,7 @@ address{
 }
 footer{
     
-    min-width: 550px;
+    min-width: 350px;
     max-width: 1000px;
     margin: auto;
     padding: 10px;
