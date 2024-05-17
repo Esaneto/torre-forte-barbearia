@@ -20,8 +20,6 @@
 }
 header{
     min-width: 350px;
-    
-    margin: auto;
     background-image: linear-gradient(to bottom, var(--cor4) ,var(--cor5));
     padding: 20px;
     text-align: center;
