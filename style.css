@@ -90,7 +90,7 @@ body{
 }
 main{
     background-color: var(--cor0);
-    min-width: 550px;
+    min-width: 350px;
     max-width: 1000px;
     margin: auto;
     padding: 20px;
